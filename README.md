@@ -276,3 +276,14 @@
 	-Apex sharing:
 	Share object is available for every object(For Account object share object is AccountShare ). 
 	If we want to share the records using apex we have to create a record to the share object.
+	
+	
+*What are the Report Types?
+	4 Types of report in Salesforce
+       	
+	-Tabular Reports: We can only displays the grand total in the table form.
+        -Summary Reports: It is a detail form of report in which the grouping done based on Columns.
+       	-Matrix Reports: It is a detail form of report in which the grouping done based on both Rows and Columns.
+       	-Joined Reports: We can join the two or more reports in the single report displayed in the form of blocks.
+	
+
