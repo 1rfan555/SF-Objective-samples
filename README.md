@@ -207,3 +207,69 @@
 *Salesforce Data Security Model:
 	
 	#source:https://developer.salesforce.com/blogs/developer-relations/2017/04/salesforce-data-security-model-explained-visually.html
+	
+	
+	
+*What is a “Lookup Relationship”?
+
+	-This type of relationship links two objects together,
+	-Up to 25 allowed for object
+	-Parent is not a required field.
+	-No impact on a security and access.
+	-No impact on deletion.
+	-Can be multiple layers deep.
+	-Lookup field is not required.
+	
+*What is “Master-Detail Relationship”?
+
+	-Master Detail relationship is the Parent child relationship. In which Master represents Parent and detail represents Child. If 		Parent is deleted then Child also gets deleted. Rollup summary fields can only be created on Master records which will 			calculate the SUM, AVG, MIN of the Child records.
+	-Up to 2 allowed to object.
+	-Parent field on child is required.
+	-Access to parent determines access to children.
+	-Deleting parent automatically deletes child.
+	-A child of one master detail relationship cannot be the parent of another.
+	-Lookup field on page layout is required.
+	
+*How can I create Many – to – Many relationship?
+
+	-We can create many – to – Many relationship by using junction object. Junction object is a custom object with two master 		detail relationships.
+	
+*Workflow:
+
+	-Workflow is automated process that fired an action based on Evaluation criteria and rule criteria.
+	-We can access a workflow across the object.
+	-We cannot perform DML operation on workflow
+	-We cannot query from database
+
+*Trigger:
+
+	-Trigger is a piece of code that executes before or after a record is inserted or updated.
+	-We can access the trigger across the object and related to that objects
+	-We can use 20 DML operations in one trigger.
+	-We can use 20 SOQL’s from data base in one trigger.
+	
+	
+*How many ways we can share a record?
+
+	-Role Hierarchy:
+	If we add a user to a role, the user is above in the role hierarchy will have read access.
+	Setup -> manage users -> roles -> setup roles -> click on ‘add role’ -> provide name and save.
+	
+	-OWD:
+	Defines the base line setting for the organization.
+	Defines the level of access to the user can see the other user’s record
+	OWD can be Private, Public Read Only, Public Read and Write.
+	Setup -> Security Controls -> sharing settings -> Click on ‘Edit’
+	
+	-Manual Sharing:
+	Manual Sharing is sharing a single record to single user or group of users.
+	We can see this button detail page of the record and this is visible only when OWD setting is private.
+	
+	-Criteria Based Sharing rules:
+	If we want to share records based on condition like share records to group of users
+	Whose criteria are country is India.
+	Setup -> security controls -> sharing settings -> select the object and provide name and
+	Conditions and save
+	
+	-Apex sharing:
+	Share object is available for every object(For Account object share object is AccountShare ). If we want to share the records 		using apex we have to create a record to the share object.
