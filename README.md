@@ -195,3 +195,8 @@
 	-3 dynamic dashboards/org(Developer)
 
 	-5 dynamic dashboards/org(Enterprise)
+	
+	
+*View State Salesforce:
+
+	-https://www.jitendrazaa.com/blog/salesforce/introduction-to-view-state-in-visualforce/
