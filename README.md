@@ -51,6 +51,8 @@
 	-Microsoft Edge(Latest)
 
 	-Internet Explorer(V11)
+	
+#source:https://www.lightningdesignsystem.com/faq/
 
 	
 
