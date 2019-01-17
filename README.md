@@ -199,7 +199,7 @@
 	
 *View State Salesforce:
 
-	-https://www.jitendrazaa.com/blog/salesforce/introduction-to-view-state-in-visualforce/
+	https://www.jitendrazaa.com/blog/salesforce/introduction-to-view-state-in-visualforce/
 	
 	
 *Salesforce Data Security Model:
