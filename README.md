@@ -200,3 +200,8 @@
 *View State Salesforce:
 
 	-https://www.jitendrazaa.com/blog/salesforce/introduction-to-view-state-in-visualforce/
+	
+	
+*Salesforce Data Security Model:
+	
+	https://developer.salesforce.com/blogs/developer-relations/2017/04/salesforce-data-security-model-explained-visually.html
