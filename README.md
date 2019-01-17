@@ -222,7 +222,9 @@
 	
 *What is “Master-Detail Relationship”?
 
-	-Master Detail relationship is the Parent child relationship. In which Master represents Parent and detail represents Child. If 		Parent is deleted then Child also gets deleted. Rollup summary fields can only be created on Master records which will 			calculate the SUM, AVG, MIN of the Child records.
+	-Master Detail relationship is the Parent child relationship. In which Master represents Parent and detail represents Child.
+	If Parent is deleted then Child also gets deleted.
+	Rollup summary fields can only be created on Master records which will calculate the SUM, AVG, MIN of the Child records.
 	-Up to 2 allowed to object.
 	-Parent field on child is required.
 	-Access to parent determines access to children.
@@ -272,4 +274,5 @@
 	Conditions and save
 	
 	-Apex sharing:
-	Share object is available for every object(For Account object share object is AccountShare ). If we want to share the records 		using apex we have to create a record to the share object.
+	Share object is available for every object(For Account object share object is AccountShare ). 
+	If we want to share the records using apex we have to create a record to the share object.
