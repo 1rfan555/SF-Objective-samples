@@ -162,7 +162,7 @@
 
 *Time-Triggered approval process:
 
-	https://help.salesforce.com/articleView?id=workflow_time_action_considerations.htm&type=5
+	#source:https://help.salesforce.com/articleView?id=workflow_time_action_considerations.htm&type=5
 
 	
 
@@ -201,9 +201,9 @@
 	
 *View State Salesforce:
 
-	https://www.jitendrazaa.com/blog/salesforce/introduction-to-view-state-in-visualforce/
+	#source:https://www.jitendrazaa.com/blog/salesforce/introduction-to-view-state-in-visualforce/
 	
 	
 *Salesforce Data Security Model:
 	
-	https://developer.salesforce.com/blogs/developer-relations/2017/04/salesforce-data-security-model-explained-visually.html
+	#source:https://developer.salesforce.com/blogs/developer-relations/2017/04/salesforce-data-security-model-explained-visually.html
