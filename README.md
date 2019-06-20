@@ -286,4 +286,9 @@
        	-Matrix Reports: It is a detail form of report in which the grouping done based on both Rows and Columns.
        	-Joined Reports: We can join the two or more reports in the single report displayed in the form of blocks.
 	
+	
+*buckets limit in reports- 20
+*components in Dashboard- 20
+*feature removed from lightning assistant: All Leads
+	
 
